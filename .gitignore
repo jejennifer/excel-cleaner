@@ -24,3 +24,12 @@ venv/
 
 # Logs
 *.log
+
+# Ignore all output Excel files
+/output/*
+!/output/.gitkeep  # 可以留一個 .gitkeep 檔讓 GitHub 有 output 資料夾
+
+# Ignore all input files except example
+/input/*
+!/input/.gitkeep
+
